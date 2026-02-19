@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nermeen Safwat Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="dark-theme">
+    <nav class="navbar">
+      <div class="logo">Dev.<span>React</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3><span>Hello,</span></h3>
+        <h1>Nermeen Safwat</h1>
+        <p>
+          I'm a
+          <span class="text-animate">Front-End React Developer</span> I build
+          fast, scalable, and fully responsive React websites that work
+          perfectly on all screen sizes. I combine strong problem-solving skills
+          with clean, maintainable code to deliver high-performance and
+          user-friendly experiences. Every website I create is creative, unique,
+          and designed to be never forgotten — built with precision and
+          delivered on time.
+        </p>
+        <div class="con">
+          <a href="#contact" class="btn1" target="_blank">Contact Me</a>
+
+          <a
+            href="./Nermeen-Safwat-Nasrallah-FlowCV-Resume-20260205 (6).pdf"
+            class="btn2"
+            target="_blank"
+            >Download CV</a
+          >
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./photos/Myphoto.jpeg" alt="Profile Image" />
+      </div>
+    </section>
+    <section id="education" class="education-section">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid" id="education-container"></div>
+    </section>
+    <section id="skills" class="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <h3><i class="fab fa-react"></i> Front-End Skills</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>HTML5 & CSS3</li>
+          </ul>
+        </div>
+        <div class="skills-box">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <ul>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div class="skills-box">
+          <h3><i class="fas fa-user-check"></i> Soft Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Communication Skills</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="heading"><span>Projects</span></h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Portfolio</h4>
+          <img src="./photos/portfolio.png" alt="image" />
+          <p>
+            Personal Portfolio , high-performance portfolio website showcasing
+            my work as a Front-End Developer. Built with HTML5, CSS3
+            (Flexbox/Grid), and JavaScript, it features a responsive layout,
+            Dark/Light mode toggle, smooth ScrollReveal animations, and modular,
+            dynamic content rendering for projects and education.
+          </p>
+          <a href="#home"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Task AI Landing page</h4>
+          <img src="./photos/TaskAI.png" alt="image" />
+          <p>
+            TaskAI – SaaS Landing Page A modern, high-conversion landing page
+            for an AI-powered task management tool. Developed using HTML5, CSS3
+            (Flexbox/Gradients), and JavaScript. The project features a clean
+            minimalist design, a responsive pricing table, and interactive UI
+            elements to enhance user engagement.
+          </p>
+          <a
+            href=" https://nermeensafwat.github.io/TaskAI-landing-page/"
+            target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <h3>Let's Build Something Amazing</h3>
+
+      <div class="footer-social">
+        <a href="https://github.com/NermeenSafwat" target="_blank"
+          ><i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nermeen-safwat-191168335/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://wa.me/+201208558507" target="_blank"
+          ><i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:nermeensafwat27@gmail.com" target="_blank"
+          ><i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
